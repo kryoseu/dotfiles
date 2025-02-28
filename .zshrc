@@ -16,6 +16,11 @@
 # ========================
 
 # ------------------------
+# Talos Configuration
+# ------------------------
+export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs"
+
+# ------------------------
 # FZF Configuration
 # ------------------------
 eval "$(fzf --zsh)"
