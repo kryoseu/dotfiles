@@ -18,7 +18,7 @@
 # ------------------------
 # Talos Configuration
 # ------------------------
-export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs"
+export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs/talosconfig"
 
 # ------------------------
 # FZF Configuration
