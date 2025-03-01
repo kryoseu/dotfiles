@@ -16,9 +16,10 @@
 # ========================
 
 # ------------------------
-# Talos Configuration
+# K8S Configuration
 # ------------------------
 export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs/talosconfig"
+export KUBECONFIG="/home/${USER}/Kubernetes/Talos/Configs/kubeconfig"
 
 # ------------------------
 # FZF Configuration
