@@ -52,6 +52,8 @@ if [[ -x "$(which eza)" ]]; then
     alias ld='eza -lhD --icons=auto'
     alias lt='eza --icons=auto --tree'
     alias llt='eza -lah --icons=auto --tree'
+else
+    alias ll='ls -lah'
 fi
 
 # ------------------------
