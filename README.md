@@ -1,5 +1,10 @@
 # dotfiles
 
+# Requirement
+```
+stow
+```
+
 ## Installation
 
 ```
