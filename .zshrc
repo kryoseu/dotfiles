@@ -43,6 +43,11 @@ export EDITOR=code  # Default editor
 # ========================
 
 # ------------------------
+# K8s
+# ------------------------
+alias k='kubectl'
+
+# ------------------------
 # Directory Listing (eza)
 # ------------------------
 if [[ -x "$(which eza)" ]]; then
