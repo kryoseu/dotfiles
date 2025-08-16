@@ -18,8 +18,11 @@
 # ------------------------
 # K8S Configuration
 # ------------------------
-export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs/talosconfig"
-export KUBECONFIG="/home/${USER}/Kubernetes/Talos/Configs/kubeconfig"
+# export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs/production/talosconfig"
+export TALOSCONFIG="/home/${USER}/Kubernetes/Talos/Configs/production-new/talosconfig"
+# export KUBECONFIG="/home/${USER}/Kubernetes/Talos/Configs/production/kubeconfig"
+export KUBECONFIG="/home/${USER}/Kubernetes/Talos/Configs/production-new/kubeconfig"
+
 
 # ------------------------
 # FZF Configuration
@@ -46,7 +49,7 @@ export EDITOR=code  # Default editor
 # K8s
 # ------------------------
 alias k='kubectl'
-
+alias kn='kubens'
 # ------------------------
 # Directory Listing (eza)
 # ------------------------
@@ -72,6 +75,7 @@ alias pa='$aurhelper -Ss'   # Search for packages
 alias pc='$aurhelper -Sc'   # Clean package cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -'  # Remove orphaned packages
 alias vc='code'  # VSCode
+alias v='nvim'
 
 # ------------------------
 # Navigation
