@@ -1,0 +1,47 @@
+{
+  "reload_style_on_change": true,
+  "layer": "top",
+  "position": "top",
+  "spacing": 0,
+  "include": [
+    "$XDG_CONFIG_HOME/waybar/modules/*json*"
+  ],
+  "modules-left": [
+    "hyprland/workspaces",
+    "wlr/taskbar"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "custom/media",
+    "custom/updates",
+    "group/pill#right1",
+    "group/pill#right2",
+    "group/pill#right3",
+    "custom/powermenu"
+  ],
+  "group/pill#right1": {
+    "modules": [
+      "group/tray-expander",
+      "pulseaudio",
+      "hyprland/language"
+    ],
+    "orientation": "inherit"
+  },
+  "group/pill#right2": {
+    "modules": [
+      "network",
+      "bluetooth"
+    ],
+    "orientation": "inherit"
+  },
+  "group/pill#right3": {
+    "modules": [
+      "cpu",
+      "temperature",
+      "memory"
+    ],
+    "orientation": "inherit"
+  }
+}

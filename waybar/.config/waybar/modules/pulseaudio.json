@@ -1,0 +1,19 @@
+{
+  "pulseaudio": {
+    "format": "{icon}",
+    "on-click": "pavucontrol",
+    "on-click-right": "pamixer -t",
+    "tooltip-format": "Playing at {volume}%",
+    "scroll-step": 5,
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "headset": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    }
+  }
+}

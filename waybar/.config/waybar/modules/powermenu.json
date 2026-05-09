@@ -1,0 +1,6 @@
+{
+  "custom/powermenu": {
+    "format": "󰐥 ",
+    "on-click": "bash ~/.config/rofi/applets/bin/powermenu.sh"
+  }
+}

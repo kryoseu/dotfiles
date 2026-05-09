@@ -1,0 +1,6 @@
+{
+  "hyprland/language": {
+    "format": "{short}",
+    "on-click": "hyprctl switchxkblayout keychron-keychron-k2 next"
+  }
+}

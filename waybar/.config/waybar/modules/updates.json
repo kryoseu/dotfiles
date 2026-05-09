@@ -1,0 +1,9 @@
+{
+  "custom/updates": {
+    "exec": "~/.local/bin/waybar-updates.sh",
+    "format": "ᗧ {}",
+    "on-click": "kitty -e sudo pacman -Syu",
+    "interval": 86400,
+    "signal": 20
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "custom/media": {
+    "format": "󰝚 {}",
+    "exec": "~/.config/waybar/scripts/media.sh",
+    "exec-on-event": false,
+    "on-click": "bash ~/.config/rofi/applets/bin/playerctl.sh",
+    "max-length": 40
+  }
+}

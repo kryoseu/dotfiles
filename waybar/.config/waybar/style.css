@@ -1,0 +1,35 @@
+* {
+  font-family: JetBrainsMono, monospace;
+  font-size: 12px;
+}
+
+window#waybar {
+  background-color: #202020;
+  color: #ffffff;
+}
+
+#workspaces button {
+  margin: 2px;
+  padding: 2px;
+  color: #cdd6f4;
+}
+
+#workspaces button.active {
+  background-color: #d1d3d2;
+  color: #1e1e2e;
+}
+
+* {
+  padding: 0 4px;
+}
+
+#pill.right1, 
+#pill.right2, 
+#pill.right3,
+#custom-media, 
+#custom-updates { 
+  margin-right: 20px;
+}
+
+
+
