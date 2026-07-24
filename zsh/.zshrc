@@ -170,3 +170,14 @@ esac
 export PATH="$HOME/.local/bin:$PATH"
 
 . "$HOME/.cargo/env"
+
+
+# dev sandbox
+sandbox() {
+    local project=$(realpath "${1:-$PWD}")
+    [[ -d $project ]] || { echo "sandbox: '$project' is not a directory" >&2; return 1 }
+    docker run --rm -it \
+        -v "$project":/workspace \
+        -v ubuntu-home:/home/ubuntu \
+        dev-sandbox "${@:2}"
+}
