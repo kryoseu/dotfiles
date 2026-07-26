@@ -112,6 +112,9 @@ eval "$(fzf --zsh)"
 # zsh-theme
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
+# nvm
+source /usr/share/nvm/init-nvm.sh
+
 export BROWSER="Firefox"
 
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
